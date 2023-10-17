@@ -1,38 +1,250 @@
-.App {
-  text-align: center;
+.h4{
+  margin: 0px;
+  margin-top: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main{
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Head{
+  width: 100%;
+  height: 630px;
+  background-color: whitesmoke;
   display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 250px;
+}
+.NameLabel{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: rgb(84, 84, 255);
+}
+.MyName{
+  font-family:Courier, monospace;
+  font-size: 60px;
+  color: rgb(37, 37, 57);
+  margin:  0px;
+}
+.label{
+  width: 120px;
+  padding-left: 50px;
+}
+.info{
+  width: 100%;
+  height: 800px;
+  padding-left: 80px;
+  background-image: white;
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: flex-start;
+  padding-top: 150px;
+}
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(15, 18, 15);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.Home{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.firstWord{
+  margin: 0px;
+  font-size: 50px;
+  color: rgb(37, 37, 57);
+}
+.FullName{
+  display: flex;
+}
+.last_word{
+  margin: 0px;
+  font-size: 50px;
+  color: rgb(84, 84, 255);
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.Photo{
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  border-radius: 10px;
+  background-image: url("2022-12-24\ 1.00.27\ PM.jpg");
+  background-size: 310px 305px;
+}
+.Developer{
+  margin: 0;
+  font-size: 50px;
+  color: rgb(37, 37, 57);
+}
+.Header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.firstPart{
+  width: 60%;
+  height: 80px;
+  padding-left: 35px;
+}
+.title{
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family:Courier, monospace;
+  padding-top: 23px;
+}
+.secondPart{
+  width: 40%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.head_text{
+  color: black;
+  height: 0px;
+  padding-top: 10px;
+}
+.Username{
+  margin-bottom: 30px;
+}
+.Ft_first{
+  width: 50%;
+  height: 300px;
+  padding-top: 60px;
+  margin-left: 150px;
+}
+.Ad{
+  letter-spacing: 2px;
   color: white;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.location{
+  color: white;
+  font-weight: 100;
+  margin: 0;
+  margin-top: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.PhNumber{
+  margin: 0;
+  color: white;
+  font-weight: 100;
+  margin-top: 5px;
+  letter-spacing: 1;
+}
+.email{
+  margin: 0;
+  color: white;
+  font-weight: 100;
+  margin-top: 5px;
+  letter-spacing: 1;
+}
+.Ft_second{
+  width: 300px;
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 90px;
+}
+.Facebook{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.Github{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.twitter{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.LinkIn{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+}
+.AboutMe{
+  width: 50%;
+  height: 500px;
+  padding-top: 90px;
+  margin-left: 120px;
+}
+.text_about{
+  margin: 0%;
+  font-family: Courier, monospace;
+  letter-spacing: 1;
+  font-size: 50px;
+  margin-left: 50px;
+}
+.experiments{
+  margin: 0%;
+  font-family: Courier, monospace;
+  letter-spacing: 1;
+  margin-left: 50px;
+  font-weight: 100;
+}
+.About_{
+  font-family: Courier, monospace;
+  letter-spacing: 3;
+  font-weight: 200;
+  line-height: 29px;
+}
+.Information{
+  width: 400px;
+  height: 300px;
+  text-align:left;
+  margin-left: 50px;
+}
+.InfoPhoto{
+  width: 550px;
+  height: 500px;
+  object-fit: fill;
+  background-size: 90% 500px;
+  background-image: url("eadit.jpg");
+}
+@media (max-width:1260px){
+  .InfoPhoto{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width:689px){
+  .AboutMe{
+    margin-left: 0px;
+  }
+  .footer{
+    flex-wrap: nowrap;
+  }
+  .Ft_second{
+    padding-left: 80px;
+  }
+  .Ft_first{
+    height: 50px;
+    padding-right: 120px;
+  }
+  .info{
+    padding-left: 0px;
   }
 }
